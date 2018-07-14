@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="myfunction()">Click me</button>
+<script>
+function myfunction(){
+var marks= window.prompt("Enter marks");
+if (marks==null || marks==undefined || marks=='')
+{
+alert ("Enter valid marks");
+}
+else if(marks<0 || marks>100)
+{
+alert ("Enter marks between 1 to 100");
+}
+else{
+marks=Number(marks);
+var total_marks=100;
+ var percentmarks=(marks/total_marks)*100;
+/**if(percentmarks>90)
+ {
+ alert("true");
+ }
+ else
+ {
+ alert("false");
+ }**/
+ 
+is_topper=(percentmarks>90)?true:false;
+alert (is_topper);
+
+
+
+
+
+
+
+}
+}
+</script>
+</body>
+</html>
+
