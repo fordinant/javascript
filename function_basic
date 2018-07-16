@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Loops</h2>
+
+<p id="demo"></p>
+
+<script>
+var singleuser=function(name, email)
+{
+var info='My name is '+name+"\n"+'My email is '+email;
+return info;
+
+
+}
+var user = singleuser("varun","varunverma@gmail.com");
+alert (user);
+
+</script>
+
+</body>
+</html>
