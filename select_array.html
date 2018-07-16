@@ -12,14 +12,15 @@ var cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 
 for (i=0 ;i<=cars.length; i++)
 {
+//alert(i);
 if(cars[i]==car_select)
 {
 alert("your selected car is at position "+(Number(i)+1));
-break;
+break;// so that searching of cars may not continue in an array if position is found
 }
 else
 {
-//alert ("no car found");
+// do nothing
 }
 
 }
