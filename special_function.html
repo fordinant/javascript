@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>My First JavaScript</h2>
+
+
+<p id="demo"></p>
+<script>
+var string="Annual Leave provides you with paid time off from your job for personal reasons";
+var str="dfsdfsdf";
+var stringlength=string.length;//string length function
+alert (stringlength);
+
+var stringpos=string.indexOf("with");//string position function
+alert (stringpos);
+
+var stringslice=string.slice(13,21);//string slice function
+alert (stringslice);
+
+var stringslice1=string.slice(stringpos,stringpos+9);// using indexof in slice
+alert (stringslice1);
+
+var stringreplace=string.replace("you with","with you");// replacing string
+alert (stringreplace);
+
+alert (string.toUpperCase());
+alert (string.toLowerCase());
+alert(string.concat(str));
+</script>
+</body>
+</html> 
