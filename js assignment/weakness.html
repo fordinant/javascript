@@ -2,8 +2,6 @@
 <html>
 <body>
 
-<p>Looping through arrays inside arrays.</p>
-
 <p id="demo"></p>
 
 <script>
@@ -4106,13 +4104,15 @@ var input=function(weakness_name,information)
       {
          n+="Name: "+information.pokemon[i].name+"<br>";
         document.getElementById("demo").innerHTML=n;
-        //alert(information.pokemon[i].id);
 		break;
+      }
+       else if(information.pokemon[i].weaknesses[j]!=weakness_name)
+      {
+	  document.getElementById("demo").innerHTML="wrong input";
       }
       else
       {
-	  //document.getElementById("demo").innerHTML="wrong input";
-        //alert("hi");
+        alert("nothing");
       }
     }
  }
