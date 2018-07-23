@@ -4112,14 +4112,19 @@ var input =function(pokemon_name,information)
        z+= "Num: "+information.pokemon[i].prev_evolution[y].num+ " Name: "+information.pokemon[i].prev_evolution[y].name+"</br>";
       }
      document.getElementById("demo").innerHTML="Id: "+information.pokemon[i].id+"<br>"+"Name: "+pokemon_name+"<br>"+   "Img: "+information.pokemon[i].img +"<br>"+"Type: " + information.pokemon[i].type +"<br>"+"Height: " + information.pokemon[i].height+"<br>"+"Weight: " + information.pokemon[i].weight+"<br>"+"Candy: " + information.pokemon[i].candy +"<br>"+"Candy_count: " + information.pokemon[i].candy_count +"<br>"+"Egg: " + information.pokemon[i].egg+ "<br>"+"Spawn_chance: " + information.pokemon[i].spawn_chance +"<br>"+"Avg_spawns: " + information.pokemon[i].avg_spawns +"<br>"+"Spawn_time: " + information.pokemon[i].spawn_time +"<br>"+"Multipliers: " + information.pokemon[i].multipliers +"<br>"+"Weaknesses: " +  information.pokemon[i].weaknesses+ "<br>"+"Next_evolution: " + "<br>"+x+ "<br>"+"Prev_evolution: " + "<br>"+z+"<br>";
+     break;
     }
-    else
+    else if(information.pokemon[i].name!=pokemon_name)
     {
-      //alert("hello");
+      document.getElementById("demo").innerHTML="Wrong input";
+    }
+     else
+    {
+      alert("Nothing");
     }
   }
 }
-var pokemon_name=window .prompt("Enter the name of pokeman");
+var pokemon_name=window.prompt("Enter the name of pokeman");
 input(pokemon_name,info);
 
 </script>
