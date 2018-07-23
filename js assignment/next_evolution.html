@@ -4104,10 +4104,16 @@ var input =function(pokemon_name,information)
       {
         n+="Name:"+(information.pokemon[l].name)+"<br>";
         document.getElementById("demo").innerHTML=n+"<br>";
+        break;
+      }
+      else if(information.pokemon[l].next_evolution[m].name!=pokemon_name)
+      {
+      document.getElementById("demo").innerHTML="Wrong input";
+       break;
       }
       else
       {
-       //alert("hey");
+       alert("Nothing");
       }
     }
   }
