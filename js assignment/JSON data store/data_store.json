@@ -1,0 +1,77 @@
+[
+  {
+     "category": "mobiles",
+      "lists":[
+       {
+         "companyName" : "redmi",
+         "modelName" : "Redmi Note 5",
+         "warranty" : "2 years",
+         "price" : 9999
+       }, 
+       {
+         "companyName" : "samsung",
+         "modelName" : "Samsung Galaxy On Nxt",
+         "warranty" : "2 years",
+         "price" : 10999
+       },
+       {
+         "companyName" : "honor",
+         "modelName" : "Honor 7A",
+         "warranty" : "2 years",
+         "price" : 8999
+       }
+      ]
+  },
+  {
+  "category": "books",
+     "lists":[
+       {
+         "bookTag" : ["English","Paperback","Preeti Shenoy"],
+         "bookName" : "Life is What you Make It",
+         "authorName" : "Preeti Shenoy",
+         "edition" : "2018",
+         "price" : 90
+       }, 
+       {
+         "bookTag" : ["English","Paperback","Chetan Bhagat"],
+         "bookName" : "One Indian Girl",
+         "authorName" : "Chetan Bhagat",
+         "edition" : "2017",
+         "price" : 90
+       },
+       {
+         "bookTag" : ["English","Paperback","Savi Sharma"],
+         "bookName" : "Everyone Has A Story",
+         "authorName" : "Savi Sharma",
+         "edition" : "2016",
+         "price" : 106
+       }
+      ]
+  },
+  {
+  "category": "shoes",
+     "lists":[
+       {
+         "companyName" : "nike",
+		 "model":"Nike TRAIN PRIME IRON DF Training Shoes",
+         "color" : "white",
+         "type" : "casual",
+         "price" : 4500
+       }, 
+       {
+         "companyName" : "adidas",
+		 "model":"ADIDAS HELKIN 3 M Running Shoes For Men",
+         "color" : "brown",
+         "type" : "sports",
+         "price" : 4300
+       },
+       {
+         "companyName" : "sparx",
+		 "model":"Sparx SD0323G Canvas Shoes For Men",
+         "color" : "blue",
+         "type" : "sports",
+         "price" : 3000
+       }
+      ]
+  }
+]
