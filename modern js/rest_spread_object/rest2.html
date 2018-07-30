@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ </head>
+<body> 
+
+<div id="demo"></div>
+
+  <script>
+
+  let allpeopletoinvite=[];
+  let pushtopartylist=(...people)=>
+  {
+  //console.log(people);
+let newpeoplearray=people;
+ allpeopletoinvite=allpeopletoinvite.concat(newpeoplearray);
+  console.log(allpeopletoinvite);
+  return allpeopletoinvite;
+  }
+  
+  pushtopartylist("varun","rohit");
+  pushtopartylist("varun11","rohit11");
+  
+  </script>
+</body>
+</html>
