@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Variables</h2>
+
+<p>In this example x, y, and z are variables.</p>
+
+<p id="demo"></p>
+
+<script>
+var generate_email=function(firstname,lastname,message)
+{
+//var msg="My name is "+name+"\n"+"My message is "+message;//old way giving value in inverted commas
+var msg=`My name is ${firstname+" "+lastname}. My message is \${message}`;//new way and use of $ for assigning value of variable an easy way and using \ "back slash" will disable functionality of $ 
+return msg;
+}
+console.log(generate_email("varun","verma","be cooool"));
+
+</script>
+
+</body>
+</html>
