@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Variables</h2>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+
+<script>
+var user=
+[
+  {
+  'email':'varun@gmail.com',
+  'password':'varun'
+  },
+  {
+  'email':'arun@gmail.com',
+  'password':'arun'
+  },
+  {
+  'email':'adi@gmail.com',
+  'password':'adi'
+  }
+]
+let checklogin=(email,password,allusers)=>
+{
+  let isuserfound=false;
+  let passwordcorrect=false;
+  for(currentuser in allusers)
+  {
+    console.log(currentuser);
+    if(allusers[currentuser].email ==email)
+    {
+      if(allusers[currentuser].password ==password)
+      {
+        isuserfound=true;
+        passwordcorrect=true;
+        break;
+      }
+      else
+      {
+        isuserfound=true;
+        passwordcorrect=false;
+        break;
+      }
+    }
+   else
+    {
+      isuserfound=false;
+    }
+  }  
+  if (isuserfound==true && passwordcorrect==true)
+  {
+    alert("You are logged in");
+  }
+  else if (isuserfound==true && passwordcorrect==false)
+  {
+    alert("You have provided incorrect password");
+  }
+  else
+  {
+    alert("No user with this email found");
+  }
+}
+let email=prompt("Enter your email");
+let password=prompt("Enter your password");
+checklogin(email,password,user);
+</script>
+
+</body>
+</html>

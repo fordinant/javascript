@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Variables</h2>
+
+<p>In this example, x, y, and z are variables.</p>
+
+<p id="demo"></p>
+
+<script>
+let bubble_sort=(a)=>
+{
+let swapp;
+let n=a.length-1;
+let x=a;
+do{
+  swap=false;
+  for(let i in n)
+  {
+    if(x[i] < x[i+1])
+    {
+      let temp=x[i];
+      x[i]=x[i+1]; 
+      x[i+1]=temp;
+      swapp=true;
+
+    }
+  }
+  n--;
+}
+while(swap);
+return x;
+}
+</script>
+
+</body>
+</html>
