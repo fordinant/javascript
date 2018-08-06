@@ -1,0 +1,50 @@
+:root{
+font-size:16px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    background: #2C2C2C;
+    margin: 4vw;
+    border: 1px solid #2C2C2C;
+    border-radius: 14px;
+    box-shadow: 0px 3px 20px 2px #35EEA3;
+    color: #35EEA3;
+    padding-left: 4vw;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+h1.heading {
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+    
+    }
+.sub-heading {
+    font-size: 1.3rem;
+    margin-bottom: 2vw;
+}
+button {
+    width: 26vw;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background: #2c2c2c;
+    color: #35eea3;
+    border: 1px solid #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    padding: 1vw;
+    letter-spacing: 8px;
+    margin-bottom: 3vw;
+}
+ button:hover {
+    cursor: pointer;
+    box-shadow: 0 3px 20px 0 #35eea4;
+}
