@@ -1,0 +1,13 @@
+for getting git version
+         1. git --version
+add any folder open with git bash 
+   2.run --touch design.html
+    to add disign .html file using touch
+    
+    3.git status //to check status
+    4. git add .
+    
+    for commit 
+    5...
+    git add -A
+git commit -m "commit message"
